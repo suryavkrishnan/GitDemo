@@ -39,7 +39,7 @@ public class CheckoutPageStepDef {
 		//assignnt to verify the name of item with above name
 		 System.out.println("landingpageProductName========"+checkoutPageObj.getItemName());
 		 System.out.println("This is cloned project I made some chnages------1------");
-		 
+		 System.out.println("This is cloned project I made some chnages------2------");
 		Assert.assertTrue(checkoutPageObj.getItemName().contains("Tomato"));
 		//Thread.sleep(1000);
     }
