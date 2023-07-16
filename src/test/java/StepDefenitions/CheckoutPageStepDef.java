@@ -47,7 +47,8 @@ public class CheckoutPageStepDef {
     @And("^verify user has ability to enter promo code and place the order$")
     public void verify_user_has_ability_to_enter_promo_code_and_place_the_order() throws Throwable 
     {
-    	
+    	 System.out.println("This is cloned project I made some chnages------3------");
+		 System.out.println("This is cloned project I made some chnages------4------");
     	Assert.assertTrue(checkoutPageObj.verifyPlaceOrder());
     	Assert.assertTrue(checkoutPageObj.verifyPromo());
     }
