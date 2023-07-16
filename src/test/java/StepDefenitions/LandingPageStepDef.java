@@ -35,8 +35,8 @@ public class LandingPageStepDef {
 	    
 	@Given("^User is on GreenCart Landing page$")
     public void user_is_on_greencart_landing_page() throws Throwable {
-		 System.out.println("This is cloned project I made some chnages------5------");
-		 System.out.println("This is cloned project I made some chnages------6------");
+		 System.out.println("This is cloned project I made some chnages------5---dev---");
+		 System.out.println("This is cloned project I made some chnages------6---dev---");
 		Assert.assertTrue(landingPageObj.getTitleofPage().contains("GreenKart"));
        
     }
