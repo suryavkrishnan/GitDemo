@@ -38,8 +38,8 @@ public class CheckoutPageStepDef {
 		checkoutPageObj.proceedTochkOut();
 		//assignnt to verify the name of item with above name
 		 System.out.println("landingpageProductName========"+checkoutPageObj.getItemName());
-		 System.out.println("This is cloned project I made some chnages------1------");
-		 System.out.println("This is cloned project I made some chnages------2------");
+		 System.out.println("This is cloned project I made some chnages------1-dev----");
+		 
 		Assert.assertTrue(checkoutPageObj.getItemName().contains("Tomato"));
 		//Thread.sleep(1000);
     }
@@ -47,8 +47,8 @@ public class CheckoutPageStepDef {
     @And("^verify user has ability to enter promo code and place the order$")
     public void verify_user_has_ability_to_enter_promo_code_and_place_the_order() throws Throwable 
     {
-    	 System.out.println("This is cloned project I made some chnages------3------");
-		 System.out.println("This is cloned project I made some chnages------4------");
+    	 System.out.println("This is cloned project I made some chnages------3----dev--");
+		 System.out.println("This is cloned project I made some chnages------4----dev--");
     	Assert.assertTrue(checkoutPageObj.verifyPlaceOrder());
     	Assert.assertTrue(checkoutPageObj.verifyPromo());
     }
